@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculation Maths</title>
+</head>
+<body>
+    <form class="titile-box" name="forma1">
+    <h1 class="titul1">Calculation Maths</h1>
+    </form>
+    <form class="titile-box c" name="forma3">
+        <div class="side">
+            <div class="titile_side">Сторона a</div>
+            <input class="date-box_item slide mytext" type="number" size="8" maxlength="8" name="st1">
+        </div>        
+                <div class="side">
+            <div class="titile_side">Сторона b</div>
+            <input class="date-box_item slide mytext" type="number" size="8" maxlength="8" name="st2">
+        </div>
+                <div class="side">
+            <div class="titile_side">Сторона c</div>
+            <input class="date-box_item slide mytext" type="number" size="8" maxlength="8" name="st3">
+        </div>
+        <div class="containerForBtn">
+            <div class="btn"><input type="button" value="Вычислить" onClick="areaOfTriangle(forma3);"></div>
+            <div class="btn"><input type="reset" value="Отменить"></div>
+        </div>
+                <div class="rezult"> 
+                <div class="titleRezult c">Результат</div>
+                <input class="rezultText c" type="text" size="8" maxlength="8" name="res">
+                </div>
+            </form>            
+</body>
+<script src="./maine.js"></script>
+</html>
